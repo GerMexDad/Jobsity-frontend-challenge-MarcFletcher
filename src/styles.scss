@@ -1,0 +1,67 @@
+@import "~bootstrap";
+@import "./style.css";
+@import  "@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "./scss/section1.scss";
+@import "./scss/section2.scss";
+@import "./scss/section3.scss";
+@import "./scss/section4.scss";
+@import "./scss/section5.scss";
+@import "./scss/icons.scss";
+
+
+@font-face {
+    font-family: 'Intro';
+    src: url('./fonts/Intro.otf') format('otf');
+    font-weight: 600;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: 'IntroRustG';
+    src: url(./fonts/IntroRustG-Base2Line.otf) format('otf');
+    font-weight: 600;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: 'MinionPro';
+    src: url('./fonts/MinionPro-Regular.otf') format('otf');
+    font-weight: 600;
+    font-size: normal;
+}
+
+@mixin fontIntro {
+    font-family: Intro !important;
+}
+
+@mixin fontIntroRustG {
+    font-family: IntroRustG !important;
+}
+
+.navbar-title1 {
+    @include fontIntroRustG;
+}
+
+.logo-container {
+    position: relative;
+}
+
+.icon1 {
+    height: 2em;
+    width: 2em;
+}
+
+.icon2 {
+    position: absolute;
+    height: 3em;
+    width: 3em;
+    z-index: -1;
+}
+
+.nav-full {
+    height: 51px !important;
+}
+
+.color-white {
+    color: white;
+}

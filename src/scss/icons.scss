@@ -1,0 +1,132 @@
+@mixin color($color) {
+    color: $color;
+}
+
+@mixin fill($color) {
+    fill: $color;    
+}
+
+.star-icon {
+    height: 1em;
+    width: 1em;
+    @include color(#ffc33b);
+}
+
+.triangle-long-1 {
+    height: auto;
+    width: 6em;
+    @include fill(#ffc33b);
+}
+
+.triangle-long-2 {
+    height: auto;
+    width: 4em;
+    @include fill(#ffc33b);
+}
+
+.circle-icon {
+    height: 15px;
+    width: 15px;
+    @include color(#ffc33b);
+}
+
+.circle-icon-dark {
+    height: 15px;
+    width: 15px;
+    @include color(black);
+}
+
+.arrow-icon {
+    height: 1em;
+    width: 1em;
+    @include color(#ffc33b);
+}
+
+.divison-icon {
+    width: 100vw;
+    @include fill(white);
+}
+
+.divison-icon-2 {
+    width: 100vw;
+    @include fill(white);
+}
+
+.certificate-icon {
+    height: 2em;
+    width: 2em;
+    @include color(gray);
+}
+
+.clock-icon {
+    height: 2em;
+    width: 2em;
+    @include color(gray);
+}
+
+.tick-icon {
+    height: 1em;
+    width: 1em;
+    @include color(green);
+    vertical-align: middle;
+    align-self: center;
+}
+
+.times-icon {
+    height: 1em;
+    width: 1em;
+    @include color(red);
+    vertical-align: middle;
+    align-self: center;
+}
+
+.align-right-icon {
+    height: 2em;
+    width: 2em;
+    @include color(white)
+}
+
+.align-right-icon-dark {
+    height: 2em;
+    width: 2em;
+    @include color(#212529)
+}
+
+.align-left-icon {
+    height: 2em;
+    width: 2em;
+    @include color(white)
+}
+
+.align-left-icon-dark {
+    height: 2em;
+    width: 2em;
+    @include color(#212529)
+}
+
+.facebook-icon {
+    height: 2em;
+    width: 2em;
+    @include color(blue)
+}
+
+.arrow-left-icon {
+    height: 2em;
+    width: 2em;
+    @include color(black)
+}
+
+.arrow-right-icon {
+    height: 2em;
+    width: 2em;
+    @include color(black)
+}
+
+.brand-icon {
+    height: 4em;
+    width: 4em;
+    @include color(black)
+}
+
+
+

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Intro';
+    src: url('./fonts/Intro.otf') format('otf');
+    font-weight: 600;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: 'IntroRustG';
+    src: url('./fonts/IntroRustG-Base2Line.otf') format('otf');
+    font-weight: 600;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: 'MinionPro';
+    src: url('./fonts/MinionPro-Regular.otf') format('otf');
+    font-weight: 600;
+    font-size: normal;
+}
+
+.test {
+    width: 100%;
+}
